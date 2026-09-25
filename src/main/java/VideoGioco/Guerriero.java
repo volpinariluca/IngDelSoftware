@@ -2,9 +2,8 @@ package VideoGioco;
 
 public class Guerriero extends Player{
 
-    public Guerriero(String name){
-        super(name);
+    public Guerriero(){
+        fightbehaviour = new LaserGunBehaviour();
+        driveBehaviour = new InterstellarShipBehaviour();
     }
-
-    //videolezione 25/09/2026 ore 10:27
 }

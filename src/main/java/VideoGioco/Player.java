@@ -1,11 +1,20 @@
 package VideoGioco;
 
-public abstract class Player {
-    protected String name;
+public abstract class Player{
     protected int lifePoints = 10;
+    FightBehaviour fightbehaviour;
+    DriveBehaviour driveBehaviour;
 
-    public Player(String name) {
-        this.name = name;
+
+    public Player() {
+    }
+
+    public void performFight(){
+        fightbehaviour.fight();
+    }
+
+    public void performDrive(){
+        driveBehaviour.drive();
     }
 
 }
