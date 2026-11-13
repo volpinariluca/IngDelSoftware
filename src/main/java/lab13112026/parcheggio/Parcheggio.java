@@ -1,7 +1,9 @@
 package lab13112026.parcheggio;
 
-public abstract class Parcheggio {
-	
+public abstract class Parcheggio extends ParcheggioComponent{
+
+    ArrayList<>
+
 	String nome;
 	String descrizione;
    
