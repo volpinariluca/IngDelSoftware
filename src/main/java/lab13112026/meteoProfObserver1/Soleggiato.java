@@ -17,7 +17,7 @@ public class Soleggiato implements State {
 	
 	@Override
 	public void migliora() {
-		// non fa nulla, può solo peggiorare
+		// non fa nulla, puÃ² solo peggiorare
 	}
 	
 	@Override
